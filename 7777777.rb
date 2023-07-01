@@ -6,3 +6,11 @@ for i in (1..1111111) do
   sum += t.count("7")
 end
 print "#{sum}"
+
+
+t.count("7")
+for u in r do
+    if u == "7"
+        count += 1
+    end
+end
