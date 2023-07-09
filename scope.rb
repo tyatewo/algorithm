@@ -55,6 +55,9 @@ end
 # =N×price)を出力します。
 
 p = gets.chomp.to_i
+price = gets.chomp.to_i
+N = gets.chomp.to_i
+
 
 # パターン2
 if p == 2
@@ -62,8 +65,35 @@ if p == 2
   puts text + "!"
 end
 
-price = gets.chomp.to_i
-N = gets.chomp.to_i
+
 puts price * N
 
 
+# 入力例
+# 2
+# good!
+# 30
+# 8
+
+# 出力例
+# Copy
+# good!!
+# 240
+
+
+# 入力例2
+# 2
+# umai
+# 150
+# 3
+# 出力例2
+# umai!
+# 450
+
+
+# 入力例3
+# 1
+# 80
+# 5
+# 出力例3
+# 400
