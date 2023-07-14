@@ -11,3 +11,13 @@
 
 sum = (1+100)*100/2
 puts sum
+
+
+# 一年の秒数
+seconds = 365 * 24 * 60 * 60
+
+# 以下のコメントを消して追記する
+puts seconds                    # 1年は何秒か
+puts seconds * 2                # 2年は何秒か
+puts seconds * 5                # 5年は何秒か
+puts seconds * 10               # 10年は何秒か
